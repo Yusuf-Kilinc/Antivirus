@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 28e490010bed5ea47a8a69e81bdd0c1c
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Prefabs/ResetterUI.prefab
+  uploadId: 361648

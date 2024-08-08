@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 17382a6997de5bf4a9ca6c4830613498
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Scenes/CharacterThirdPersonAI.unity
+  uploadId: 361648

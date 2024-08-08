@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0ac1691131a8c844dafe8b6ace6a172a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs
+  uploadId: 361648

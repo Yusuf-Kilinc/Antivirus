@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb7c1a8482a67664e95e13c16daf3adf
+timeCreated: 1487856508
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Effects/ImageEffects/Readme.txt
+  uploadId: 361648

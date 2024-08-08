@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 5bda8cddff6467b49826e3ff2a374f49
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Scenes/AircraftPropeller4Axis.unity
+  uploadId: 361648

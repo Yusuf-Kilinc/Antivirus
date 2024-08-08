@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fdc378243b95c2144aa66bfc382d1b75
+timeCreated: 1447332698
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Prefabs/CameraSwitch.prefab
+  uploadId: 361648

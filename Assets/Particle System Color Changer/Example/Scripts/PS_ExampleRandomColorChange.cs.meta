@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d4b4ad480a917f14cb56092970450b30
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 195040
+  packageName: Particle System Color Changer
+  packageVersion: 1.0
+  assetPath: Assets/Particle System Color Changer/Example/Scripts/PS_ExampleRandomColorChange.cs
+  uploadId: 432472

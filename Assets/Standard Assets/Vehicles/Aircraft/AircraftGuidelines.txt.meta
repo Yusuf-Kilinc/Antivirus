@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 46230db5e15a8284fa5de6427da7fdff
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Vehicles/Aircraft/AircraftGuidelines.txt
+  uploadId: 361648

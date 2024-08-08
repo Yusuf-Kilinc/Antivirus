@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 8be6341e1ce3f4cec9902bc34f72d20a
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/2D/PhysicsMaterials/BouncyBox.physicsMaterial2D
+  uploadId: 361648

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a8d3968294210ba4a9d2bb96dfa74a16
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Cameras/Scripts/AutoCam.cs
+  uploadId: 361648

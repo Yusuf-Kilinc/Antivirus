@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d963df58504b69045b8d0d746ba6f777
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs
+  uploadId: 361648

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5d8238cc53530b64fbb7828c3d3bb591
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs
+  uploadId: 361648

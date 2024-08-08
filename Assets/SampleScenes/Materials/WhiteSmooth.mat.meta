@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 616853845a4a54949ac851f2f807aa2a
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Materials/WhiteSmooth.mat
+  uploadId: 361648

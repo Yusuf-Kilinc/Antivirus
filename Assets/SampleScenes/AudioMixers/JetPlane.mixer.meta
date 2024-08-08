@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: e21d59315859b4f288500f0a7167ebe7
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/AudioMixers/JetPlane.mixer
+  uploadId: 361648

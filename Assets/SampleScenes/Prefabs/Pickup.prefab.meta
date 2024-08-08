@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 2ed830309d1c9f640a65bf22d9060af1
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Prefabs/Pickup.prefab
+  uploadId: 361648

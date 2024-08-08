@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: d2aaa8a2832d77144aa84d5d309ae2b3
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Prefabs/LevelResetUI.prefab
+  uploadId: 361648

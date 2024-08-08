@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c45f0afbf9669834d9bac06fb9f06fb7
+timeCreated: 1447160266
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat
+  uploadId: 361648

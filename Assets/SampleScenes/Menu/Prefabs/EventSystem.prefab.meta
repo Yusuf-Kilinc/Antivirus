@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: af6c1d82d375aa54c81180d14d62761e
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Menu/Prefabs/EventSystem.prefab
+  uploadId: 361648

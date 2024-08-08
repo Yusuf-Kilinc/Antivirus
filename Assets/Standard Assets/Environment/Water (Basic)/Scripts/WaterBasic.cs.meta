@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0d2f50a8e0bb841a5aaa90ae55db8849
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs
+  uploadId: 361648

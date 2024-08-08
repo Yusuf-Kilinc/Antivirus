@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 2c438794b43b9534189eff0d7d79335a
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Menu/Prefabs/MainMenuUI.prefab
+  uploadId: 361648

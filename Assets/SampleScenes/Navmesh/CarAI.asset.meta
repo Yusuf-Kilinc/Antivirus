@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 552927ccf2fdad3428e89e5104d91912
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Navmesh/CarAI.asset
+  uploadId: 361648

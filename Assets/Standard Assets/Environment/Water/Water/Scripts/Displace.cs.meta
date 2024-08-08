@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c62b7d87755b447919138e67f8e22e0c
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Environment/Water/Water/Scripts/Displace.cs
+  uploadId: 361648

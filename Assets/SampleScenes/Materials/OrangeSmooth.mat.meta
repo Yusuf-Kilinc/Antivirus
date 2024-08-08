@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a24037aa2dae5b145b048dcaf948032a
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Materials/OrangeSmooth.mat
+  uploadId: 361648

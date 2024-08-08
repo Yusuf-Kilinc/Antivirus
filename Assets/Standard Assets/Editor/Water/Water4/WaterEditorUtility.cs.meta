@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f67f2bac30f824d4f8270bb8bb0779df
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs
+  uploadId: 361648

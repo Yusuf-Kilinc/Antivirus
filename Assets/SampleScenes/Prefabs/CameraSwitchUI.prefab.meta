@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: b3495d363d7ccba40bc3e92c1a184e28
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Prefabs/CameraSwitchUI.prefab
+  uploadId: 361648

@@ -1,0 +1,9 @@
+# ninja log v5
+12	662	7410609239151010	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	b648499c8dd5a34c
+3	781	7410609240208272	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	85bdd36ad3cefb1a
+15	782	7410609240208272	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	10a1c9597f1f3b1f
+18	790	7410609240323761	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	84639fb248c3ae99
+0	854	7410609241062096	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	d40ba09962bb0b7d
+9	975	7410609242302179	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	923485da978b782c
+6	1001	7410609242543614	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	a57c1cbcf7b74144
+1001	1183	7410609243779242	D:/Unity/Projeler/ColorwarGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/345v63w1/obj/x86/libgame.so	a7733470acba4ee9

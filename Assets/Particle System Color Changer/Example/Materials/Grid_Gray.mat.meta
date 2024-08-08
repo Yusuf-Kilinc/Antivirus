@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4aaaa9ad0c8fc5e45a911e38537de7af
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 195040
+  packageName: Particle System Color Changer
+  packageVersion: 1.0
+  assetPath: Assets/Particle System Color Changer/Example/Materials/Grid_Gray.mat
+  uploadId: 432472

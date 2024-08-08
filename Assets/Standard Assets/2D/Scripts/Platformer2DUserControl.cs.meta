@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c3d7b34a3bb2d4e4b926e7e729d3d410
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs
+  uploadId: 361648

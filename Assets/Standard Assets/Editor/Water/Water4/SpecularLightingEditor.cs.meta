@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 33f51eb21122c4ca6a199d561065ae30
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs
+  uploadId: 361648

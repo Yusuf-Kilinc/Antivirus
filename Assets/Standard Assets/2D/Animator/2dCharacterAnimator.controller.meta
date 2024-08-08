@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 5fc43f0c4b413534ba12c51c0e5e5f6f
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/2D/Animator/2dCharacterAnimator.controller
+  uploadId: 361648

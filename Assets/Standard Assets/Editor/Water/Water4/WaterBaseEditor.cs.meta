@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9c2c627f6fe3945b39581fc103d32251
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs
+  uploadId: 361648

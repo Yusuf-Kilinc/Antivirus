@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 48dca5b99d113b8d11006bab44295342
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Effects/ToonShading/Shaders/ToonLit.shader
+  uploadId: 361648

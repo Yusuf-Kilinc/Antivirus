@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d947636a9390f6a46a121124154e6e3f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs
+  uploadId: 361648

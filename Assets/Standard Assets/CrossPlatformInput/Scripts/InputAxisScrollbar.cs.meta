@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7d3269566d48b8447bb48d2259e28f8b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs
+  uploadId: 361648

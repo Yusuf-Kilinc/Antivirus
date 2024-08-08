@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f166ed551f18240f99a161783914f623
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/AudioMixers/PropellerPlane.mixer
+  uploadId: 361648

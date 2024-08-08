@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: da4ad5eaeea795c4c889dcf86db7ca39
+timeCreated: 1434450384
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/SampleScenes/Menu/Prefabs/NetworkGameMenuUI.prefab
+  uploadId: 361648

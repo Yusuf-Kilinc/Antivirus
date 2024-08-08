@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 52baaeb214519f347a35cf0edfd262ff
+timeCreated: 1427463081
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial
+  uploadId: 361648
