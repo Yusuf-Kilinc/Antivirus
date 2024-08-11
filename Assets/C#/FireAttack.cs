@@ -8,18 +8,16 @@ public class FireAttack : MonoBehaviour
     public bool Fire, Reload;
     RaycastHit hit;
     public TextMeshProUGUI Bullettext;
-    float asasas;
+    float asdasdasdas;
     private void Start()
     {
         Zmn = MaxZmn;
     }
-
-
     void Update()
     {
         Bullettext.text = "" + Mermi + "/" + FullBullet;
 
-        if (Input.GetMouseButton(0) && Mermi > 0 && Time.time > NewBullet && !Reload) 
+        if (Input.GetMouseButton(0) && Mermi > 0 && Time.time > NewBullet && !Reload)
         {
             Fire = true;
             NewBullet = Time.time + FireTime;
@@ -29,11 +27,11 @@ public class FireAttack : MonoBehaviour
         {
             Reload = true;
         }
-
-        if (Reload == true && Mermi != 30 && !Reload)  
+        if (Reload == true && Mermi == 30)
         {
-            sayi = Sarjor - Mermi;
             Zmn -= Time.deltaTime;
+            sayi = Sarjor - Mermi;
+           
             if (Zmn <= 0)
             {
                 Reload = false;
@@ -49,9 +47,7 @@ public class FireAttack : MonoBehaviour
                     Mermi += sayi;
                     FullBullet -= sayi;
                 }
-             
             }
-           
         }
     }
     private void FixedUpdate()
