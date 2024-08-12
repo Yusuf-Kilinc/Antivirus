@@ -6718,10 +6718,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8364083292377282368}
-        m_TargetAssemblyTypeName: WeaponCode, Assembly-CSharp
-        m_MethodName: ChangeAmmoColor
-        m_Mode: 5
+      - m_Target: {fileID: 8364083292377282370}
+        m_TargetAssemblyTypeName: FireAttack, Assembly-CSharp
+        m_MethodName: RedBullet
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -44978,9 +44978,22 @@ MonoBehaviour:
   sayi: 0
   Zmn: 0
   MaxZmn: 3
+  RedSayi: 0
+  RedMer: 30
+  RedFull: 60
+  newRed: 0
+  redSarjor: 30
   Fire: 0
   Reload: 0
+  RedTrue: 0
+  RedReload: 0
   Bullettext: {fileID: 918691011}
+  muzzleFlash: {fileID: 198357974672443957}
+  ses: {fileID: 8364083292377282369}
+  sound: {fileID: 8300000, guid: d707909ade1f70f40bff90e57e85323f, type: 3}
+  Cursor: {fileID: 898179305}
+  DeathObj: {fileID: 3548588485384254792, guid: 2f9e7dc163581394da1e00b561eed65d,
+    type: 3}
 --- !u!23 &8390648190152434740
 MeshRenderer:
   m_ObjectHideFlags: 0
