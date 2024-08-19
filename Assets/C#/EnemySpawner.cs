@@ -15,12 +15,25 @@ public class EnemySpawner : MonoBehaviour
     public Material GreenMat;
     public Light Redligt;
     public Slider slider;
-    public GameObject SliderTrueFalse;
     float NextLvl = 1;
     private bool hasIncrementedNLDoor = false;
+
+    public MeshRenderer SliderColorObject;
+    public Image SliderBackground;
+
+    private void Start()
+    {
+        SliderColorObject = GetComponent<MeshRenderer>();
+        
+    }
+
+
     private void Update()
     {
         Health = Mathf.Clamp(Health, 0, 100);
+        slider.value = Health;
+        SliderBackground.color = SliderColorObject.material.color;
+
 
         if (NextLvl == 0 && !hasIncrementedNLDoor)
         {
@@ -60,8 +73,6 @@ public class EnemySpawner : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Health -= 5 * Time.deltaTime;
-            SliderTrueFalse.SetActive(true);
-            slider.value = Health;
         }
     }
     private void OnTriggerExit(Collider other)
@@ -71,7 +82,6 @@ public class EnemySpawner : MonoBehaviour
             if (Health > 0)
             {
                 Health += 1 * Time.deltaTime;
-                SliderTrueFalse.SetActive(false);
             }
         }
     }

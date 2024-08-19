@@ -30,6 +30,7 @@ public class FireAttack : MonoBehaviour
     private string currentAmmoColor = "Red"; // Varsayýlan renk
     public GameObject DeathObj;
     GameObject Hedef;
+    public GunRecoil Recoil;
     #endregion
 
     float asasas;
@@ -85,68 +86,12 @@ public class FireAttack : MonoBehaviour
 
         #endregion
 
-        #region NormalMermi
-        //if (!RedTrue || !GreenTrue || !BlueTrue) 
-        //{
-        //    Bullettext.text = "" + Mermi + "/" + FullBullet;
-        //}
-        ////if (Input.GetMouseButton(0) && Mermi > 0 && Time.time > NewBullet && !Reload)
-        ////{
-        ////    Fire = true;
-        ////    NewBullet = Time.time + FireTime;
-        ////    Mermi--;
-        ////}
-        //if (Input.GetKeyDown(KeyCode.E))
-        //{
-        //    Reload = true;
-        //}
-        //if (Reload == true && Mermi != 30)
-        //{
-        //    Zmn -= Time.deltaTime;
-        //    sayi = Sarjor - Mermi;
-
-        //    if (Zmn <= 0)
-        //    {
-        //        Reload = false;
-        //        Zmn = MaxZmn;
-        //        if (sayi > FullBullet)
-        //        {
-        //            Mermi += FullBullet;
-        //            FullBullet = 0;
-
-        //        }
-        //        if (sayi < FullBullet)
-        //        {
-        //            Mermi += sayi;
-        //            FullBullet -= sayi;
-        //        }
-        //    }
-        //}
-        #endregion
-
         #region Red || Blue || Green
 
         #region RedTrue
         if (RedTrue)
         {
             Bullettext.text = "" + RedMer + "/" + RedFull;
-            //if (/*Input.GetMouseButton(0) &&*/ RedMer > 0 && Time.time > newRed && !Reload)
-            //{
-            //    Fire = true;
-            //    newRed = Time.time + FireTime;
-            //    RedMer--;
-            //    muzzleFlash.Play();
-            //    ses.clip = sound;
-            //    ses.Play();
-            //}
-            //else
-            //{
-            //    muzzleFlash.Stop();
-            //}
-            //if (Input.GetKeyDown(KeyCode.E))
-            //{
-            //    RedReload = true;
-            //}
             if (RedReload == true && RedMer != 30)
             {
                 Zmn -= Time.deltaTime;
@@ -176,23 +121,6 @@ public class FireAttack : MonoBehaviour
         if (BlueTrue)
         {
             Bullettext.text = "" + BlueMer + "/" + BlueFull;
-            //if (/*Input.GetMouseButton(0) && */BlueMer > 0 && Time.time > NewBlue && !Reload)
-            //{
-            //    Fire = true;
-            //    NewBlue = Time.time + FireTime;
-            //    BlueMer--;
-            //    muzzleFlash.Play();
-            //    ses.clip = sound;
-            //    ses.Play();
-            //}
-            //else
-            //{
-            //    muzzleFlash.Stop();
-            //}
-            //if (Input.GetKeyDown(KeyCode.E))
-            //{
-            //    BlueReload = true;
-            //}
             if (BlueReload == true && BlueMer != 30)
             {
                 Zmn -= Time.deltaTime;
@@ -222,23 +150,6 @@ public class FireAttack : MonoBehaviour
         if (GreenTrue)
         {
             Bullettext.text = "" + GreenMer + "/" + GreenFull;
-            //if (/*Input.GetMouseButton(0) &&*/ GreenMer > 0 && Time.time > NewGreen && !Reload)
-            //{
-            //    Fire = true;
-            //    NewGreen = Time.time + FireTime;
-            //    GreenMer--;
-            //    muzzleFlash.Play();
-            //    ses.clip = sound;
-            //    ses.Play();
-            //}
-            //else
-            //{
-            //    muzzleFlash.Stop();
-            //}
-            //if (Input.GetKeyDown(KeyCode.E))
-            //{
-            //    GreenReload = true;
-            //}
             if (GreenReload == true && GreenMer != 30)
             {
                 Zmn -= Time.deltaTime;
@@ -272,6 +183,7 @@ public class FireAttack : MonoBehaviour
         #region Fire
         if (Fire)
         {
+            Recoil.ApplyRecoil();
             Fire = false;
             if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, Menzil))
             {
