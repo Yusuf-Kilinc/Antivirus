@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Blue
+  - Enemy
+  - Green
+  - Red
+  - Master
+  - Spawner
   layers:
   - Default
   - TransparentFX

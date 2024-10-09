@@ -5,27 +5,34 @@ public class PlayerController : MonoBehaviour
 {
     CharacterController controller;
     public FixedJoystick Fj;
-    public AudioSource source;
     Vector3 velocity;
-    bool isGrounded;
+    public LayerMask Mask;
     public Transform Ground;
+    int SoundControl;
+
+    #region Ses
+    public AudioSource source;
+    public AudioClip[] StepSounds;
+    public AudioClip[] WoodSound;
+    public AudioClip JumpSound;
+    #endregion
+    #region Floats
     public float Distance = 0.3f;
     public float Speed;
     public float WalkSpeed;
     public float RunSpeed;
     public float JumpHeight;
     public float Gravity;
-    public bool Walk;
-    public bool Run;
-    public LayerMask Mask;
-    bool isMoving;
     float Timer;
     public float TimeBetveenSteps;
-    public AudioClip[] StepSounds;
-    public AudioClip[] WoodSound;
-    public AudioClip JumpSound;
-    int SoundControl;
+    #endregion
+    #region Bools
+    bool isGrounded;
+    public bool Walk;
+    public bool Run;
+    bool isMoving;
     public bool KarakterDurmali = false;
+    #endregion
 
     void Start()
     {
@@ -34,7 +41,6 @@ public class PlayerController : MonoBehaviour
         source = GetComponent<AudioSource>();
         Speed = WalkSpeed;
     }
-
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         switch (hit.transform.tag)
@@ -43,8 +49,6 @@ public class PlayerController : MonoBehaviour
             case "TAHTA": SoundControl = 1; break;
         }
     }
-
-    // Update is called once per frame
     void Update()
     {
         #region Movement
@@ -120,20 +124,16 @@ public class PlayerController : MonoBehaviour
         }
         #endregion
     }
-
-
     public void WalkState()
     {
         Walk = true;
         Run = false;
     }
-
     public void RunState()
     {
         Walk = false;
         Run = true;
     }
-
     public void Jump()
     {
         if (isGrounded)

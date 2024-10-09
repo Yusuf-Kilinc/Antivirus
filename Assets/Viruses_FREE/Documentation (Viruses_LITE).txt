@@ -1,0 +1,67 @@
+
+- - - - - - - - - - - - - - - - - - - - - Viruses 3D model's & shaders (FREE)- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+This pack contains many 3D model of different viruses.Best fit for Medical, Openworld, 3D related and any other types of Games.Included custom shader made with shadergraph.You can also assign these shaders to your own 3D character & gameobjects.All materials are highly customizable too.Adjust the properties and create your own easily.
+
+Technical Details:-
+		- Material(s) : Custom material (Made with Shadergraph v12)
+		- Model(s) : Viruses
+		- Animations : No (Avilable in full version)	
+		- Poly count (verts) :  Virus1(6k), Virus2(7k), Virus3(5k), Virus4(5k), Virus5(5k)
+		- Unwrapped : YES
+		- Customizable shader : YES
+		- Prefab Variations : 20
+		- Texture Size : 2048(.png)
+		- Shadergraph version - 12.1.11
+		- Built in support : YES
+	
+
+Features:-
+	- Different virus models
+	- Highly Customizable Shaders/Materials
+	- Create your own color variation in just clicks
+	- Best fit for Medical, Hospital, Openworld 3D survival games (This is upto your choice)
+	- Optimized Lowpoly model's
+	- Models comes with simple colliders
+	- PBR HQ beautifull Shaders and Materials
+	- Include many Prefab variations
+	- Mobile, AR supported
+	- 3D Model's are completely unwrapped.
+	- Shader also support's for custom 3D meshes with unwrapped UV.
+	- All nodes, materials and textures are appropriately named.
+	- Arranged pivots, well named folders
+	- Easy to use (Drag and drop)
+
+Folder details:-
+
+	Materials : Where the materials for the model located.
+	
+	Meshes : Contain FBX format of the 3d model.
+	
+	Textures : Contains Textures, that are in (.PNG) file format
+	
+	(Other folders - Prefabs, Scenes)
+
+Notes:
+Support URP, HDRP, LWRP, Built-in Render Pipeline.
+This project is submitted using Built-in Render Pipeline. If you are not using Built-in Render Pipeline, you need to manually reset the shader of the model to avoid it being pink
+
+How to use:-
+	
+	Simply drag and drop the prefab to your scene and use it.
+	(Prefab(s) located under 
+	Asset > Viruses_FREE > Prefabs).
+
+Custom Shader Properties:-
+
+	> Color1, 2, 3 : Combination's of 3 Color's followed by Colormask, color3 mask.
+	> Color Mask, Color3 Mask : Support's scaling, tiling & Custom Texture.
+	> Normal map : Bumpness across the mesh, Support's scaling & Custom Texture.
+
+..................................................................................
+
+About Me : "SR Studios Kerala", Indie Game developer & 3D-2D Artist from Alappuzha, Kerala, India
+
+Contact : srstudioskerala@gmail.com
+
+................Thank you for downloading this package................................

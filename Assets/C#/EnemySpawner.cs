@@ -23,7 +23,7 @@ public class EnemySpawner : MonoBehaviour
 
     private void Start()
     {
-        SliderColorObject = GetComponent<MeshRenderer>();
+      //  SliderColorObject = GetComponent<MeshRenderer>();
         
     }
 

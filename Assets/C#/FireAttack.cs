@@ -29,11 +29,9 @@ public class FireAttack : MonoBehaviour
     public Image Cursor;
     private string currentAmmoColor = "Red"; // Varsayýlan renk
     public GameObject DeathObj;
-    GameObject Hedef;
+    GameObject Hedef,SpawnerHedef;
     public GunRecoil Recoil;
     #endregion
-
-    float asasas;
 
     private void Start()
     {
@@ -176,7 +174,6 @@ public class FireAttack : MonoBehaviour
         #endregion
 
         #endregion
-
     }
     private void FixedUpdate()
     {
@@ -190,30 +187,36 @@ public class FireAttack : MonoBehaviour
                 if (hit.transform.CompareTag("Enemy"))
                 {
                     Hedef = hit.transform.gameObject;
-                    Target targetScript = Hedef.GetComponent<Target>();
-
-                    if (targetScript != null)
+                  //  Target targetScript = Hedef.GetComponent<Target>();
+                    RedVirus RVirus = Hedef.GetComponent<RedVirus>();
+                    if (RVirus != null)
                     {
-                        if (currentAmmoColor == "Red" && targetScript.enemyColor == "Red")
+                        if (currentAmmoColor == "Red" && RVirus.enemyColor == "Red")
                         {
-                            targetScript.TakeDamage(100);
+                            RVirus.TakeDamage(100);
                         }
-                        else if (currentAmmoColor == "Green" && targetScript.enemyColor == "Green")
+                        else if (currentAmmoColor == "Green" && RVirus.enemyColor == "Green")
                         {
-                            targetScript.TakeDamage(100);
+                            RVirus.TakeDamage(100);
                         }
-                        else if (currentAmmoColor == "Blue" && targetScript.enemyColor == "Blue")
-                        {
-                            targetScript.TakeDamage(100);
-                        }
-                        else
-                        {
-                            targetScript.GainHealth(10);
-                        }
+                        //else if (currentAmmoColor == "Blue" && RVirus.enemyColor == "Blue")
+                        //{
+                        //    RVirus.TakeDamage(100);
+                        //}
+                        //else
+                        //{
+                        //    RVirus.GainHealth(10);
+                        //}
                     }
                     Instantiate(DeathObj, hit.point, Quaternion.identity);
                     StartCoroutine(YOKET());
                     Debug.Log("Raycast isabet etti: " + hit.transform.name);
+                }
+                if (hit.transform.tag == "Spawner")
+                {
+                    Hedef = hit.transform.gameObject;
+                    Spawner SpawnerScript = Hedef.GetComponent<Spawner>();
+                    SpawnerScript.Health -= 5;
                 }
             }
         }
@@ -224,7 +227,6 @@ public class FireAttack : MonoBehaviour
         yield return new WaitForSeconds(5);
         Destroy(Hedef);
     }
-
     public void RedBullet()
     {
         GreenTrue = false;
